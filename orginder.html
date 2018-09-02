@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>ORGINDER</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    
+
+        <style>
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+
+    .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+</style>
+
+</head>
+
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                
+            </a>
+        </div> <!-- end header-logo -->
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <h3>Navigate to</h3>
+
+            <div class="header-nav__content">
+                
+                <ul class="header-nav__list">
+                    <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://www.facebook.com/orginderofficial"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/orginderofficial"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav> <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                ORGINDER
+                </h1>
+
+                <h3>
+                You can't save all , Save one at a time
+                </h3>
+                <h4> Chennai </h4>
+                <div class="home-content__video">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=AEHArg3ffQw" data-lity>
+                        <span class="video-icon"></span>
+                        <span class="video-text">Watch Video</span>
+                    </a>
+                </div>
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                        More About Us
+                    </a>
+                    <a href="#contact" class="smoothscroll btn btn--large">
+                        Let's Donate
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Scroll
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/fnplusofficial/"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+          <!--  <li>
+                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>-->
+            <li>
+                <a href="https://www.instagram.com/fnplusofficial"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Who We Are</h3>
+                <h1 class="display-1">
+                We are Organider, a community network to save lifes by donating organs.
+                </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                We are Organider, a community network to save lifes by donating organs.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row bit-narrow">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Define</h4>
+                        <p>
+                        The ORGINDER society is a voluntary humanitarian organization will be having network of over 700 branches throughout the country, providing relief in times of emergencies and promotes health & care of the vulnerable people and communities. It is gonna be a leading member of the largest independent humanitarian organization in the world.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Design</h4>
+                        <p>
+                        It is designed after looking at societies like RED CROSS SOCIETY and other organ locator or blood donator websites. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Origin</h4>
+                        <p>
+                        It was created in Vit,chennai during a hackathon and was created to help people who are not able to find organs near them.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block item-process" data-aos="fade-up">
+                    <div class="item-process__text">
+                        <h4 class="item-title">Launch</h4>
+                        <p>
+                        Most probably we are gonna launch by december,2018.
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- end process -->
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services target-section darker">
+
+        <div class="row section-header bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Orginder</h3>
+                <p class="display-1">
+               Donating an organ takes a lot of balls and most of the time, people will joke about selling your organs to buy something very expensive. But organ donation is one of the most heroic thing to do and if you can donate your organs, you’re going to be living not just one but two lives – including the life of the person whom you donated your organ to. Speaking of that, here are some organ donation quotes that might help you to decide whether you’ll donate yours or not.
+                </p>    
+                </div>
+        </div> <!-- end section-header -->
+
+        <div class="row bit-narrow services block-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-star"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Security</h3>
+                    <p><b>All hospital staff, including your administration and medical care team, will take reasonable precautions to protect your personal health information.and Staff who come into contact with your personal health information will maintain the security of that information.</b> 
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-image"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Open Source</h3>
+                    <p>This website is gonna be open source so that it can be upgraded if new things comes in the market or new technology arrives</p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Health Care</h3>
+                    <p>Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, and treatment of disease, illness, injury, and other physical and mental impairments in human beings. Healthcare is delivered by health professionals (providers or practitioners) in allied health fields. Physicians and physician associates are a part of these health professionals. Dentistry, midwifery, nursing, medicine, optometry, audiology, pharmacy, psychology, occupational therapy, physical therapy and other health professions are all part of healthcare. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.
+
+                    </p>
+                </div>
+            </div>
+
+            
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-pie-chart"></i>
+                </div>  
+                <div class="item-service__text">
+                    <h3 class="item-title">Logistics</h3>
+                    <p>The number of organ transplantation surgeries has increased particularly in the last decade due to technological and scientific advances in medicine. Despite this increase, many patients, however, remain in waiting lists for transplantation surgery. Main reasons for these waiting lists are that there are limited number of organ donations and specifically problems in the management of organ transplantation activities. An efficient management of the allocation and transportation of organs (in other words, logistics management of organ transplantation) are thus extremely important.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services -->
+         <div class="wrap">
+             <div class="search">
+                  <input type="text" class="searchTerm" placeholder="What are you looking for?" name="ser">
+                      <button type="submit" class="searchButton">
+                         <i class="fa fa-search"></i>
+                      </button>
+             </div>
+        </div>
+
+
+<script>
+
+
+
+
+
+</script>
+
+
+
+
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+    
+   
+
+        <div class="map">
+            <iframe src="map.html" width="110%" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWthc2hzYXJlZW4iLCJhIjoiY2psanJkN2p2MGYweTN3bzUxcWh4bnJiaSJ9.5BcPlOGDRX_kPogpOLxnpw';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [80.2150, 13.0150],
+    zoom: 11.15
+});
+
+map.on('load', function () {
+    // Add a layer showing the places.
+    if (ser == "kidney") {
+ map.addLayer({
+        "id": "places",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Gleneagles Global Health City</strong><p><a href=\"https://www.gleneaglesglobalhospitals.com\" target=\"_blank\" title=\"Opens in a new window\">Gleneagles Global Health City</a><br>Address: 439, Medavakkam Road, Perumbakkam, Cheran Nagar, Chennai, Tamil Nadu 600100</br><br>Hours: Open 24 hours</br><br>Phone: 044 4477 7000</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2067,  12.8986]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Apollo Medical Centre Karapakkam</strong><p><br><a href=\"https://chennai.apollohospitals.com/\" target=\"_blank\" title=\"Opens in a new window\">Apollo Medical Centre Karapakkam</a></br>Address: 2/319, OMR Service Rd, Karappakam, Chennai, Tamil Nadu 600097<br>Hours: Open 24 hours</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2458, 12.9632]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Dr. Kamakshi Memorial Hospital</strong><p><a href=\"https://www.drkmh.com/\" target=\"_blank\" title=\"Opens in a new window\">Dr. Kamakshi Memorial Hospital</a><br>Address: 1, 200 Feet Radial Rd, Dandeeswarar Nagar, Rose Avenue, Pallikaranai, Chennai, Tamil Nadu 600100</br><br>Hours: Open 24 hours</br><br>Phone: 044 6630 0301</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2093, 12.9493]
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2297, 12.9151]
+                    }
+                 }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Annai Arul Hospital</strong><p><a href=\"www.annaiarulhospital.com/\" target=\"_blank\" title=\"Opens in a new window\">Annai Arul Hospital</a><br>Address: No: 270, Mudichur Road, Old Perungalathur, Chennai, Tamil Nadu 600063</br><br>Hours: Open 24 hours</br><br>Phone: 044 7170 0700</br></p>",
+                        "icon": "hospital"
+                    }
+                }]
+
+});
+else if(ser == "heart")
+{
+map.addLayer({
+        "id": "places",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data":    {
+                   "features": [{
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Fortis Malar Hospital</strong><p><a href=\"www.fortishealthcare.com/india/fortis-malar-hospital-in-adyar-tamil-nadu\" target=\"_blank\" title=\"Opens in a new window\">Fortis Malar Hospital</a><br>Address: No. 52, 1st Main Rd, Gandhi Nagar, Adyar, Chennai, Tamil Nadu 600020</br><br>Hours: Open 24 hours</br><br>Phone: 099625 99933</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.0881, 12.9207]
+                    }
+                 }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Grace Multispeciality Hospital</strong><p><a href=\"https://grace-multispeciality-hospital.business.site/\" target=\"_blank\" title=\"Opens in a new window\">Grace Multispeciality Hospital</a><br>Address: 84, JV Complex, Medavakkam Main Road, Keelkattalai, Chennai, Tamil Nadu 600117</br><br>Hours: Open 24 hours</br><br>Phone: 092832 09606</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1868, 12.9569]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Hindu Mission Hospital</strong><p><a href=\"http://hindumissionhospital.in/\" target=\"_blank\" title=\"Opens in a new window\">Hindu Mission Hospital</a><br>Address: 103, GST Road, West Tambaram, Tambaram, Chennai, Tamil Nadu 600045</br><br>Hours: Open 24 hours</br><br>Number of beds: 220</br><br>Founded: 1982</br><br>Phone: 044 2226 2244</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1140, 12.9239]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Capital Pride Parade</strong><p>The annual <a href=\"http://www.capitalpride.org/parade\" target=\"_blank\" title=\"Opens in a new window\">Capital Pride Parade</a> makes its way through Dupont this Saturday. 4:30 p.m. Free.</p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2587, 13.0102]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Parvathy Hospital</strong><p><a href=\"http://www.parvathyhospital.com/\" target=\"_blank\" title=\"Opens in a new window\">Parvathy Hospital</a><br>Address: 241, GST Road Chromepet, Near MIT Bridge, Chennai, Tamil Nadu 600044</br><br>Hours: Open 24 hours</br><br>Phone: 044 2238 2248</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1366, 12.9461]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Chennai Krishna Hospital</strong><p><a href=\"http://www.chennaikrishnahospital.org/\" target=\"_blank\" title=\"Opens in a new window\"><em>Chennai Krishna Hospital</em></a><br>Address: 297, GST Road, [ Near MIT Bridge ], Chrompet, Chennai, Tamil Nadu 600044</br>Hours: Open 24 hours</br><br>Phone: 094447 86535</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1369, 12.9464]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>SIMS Hospital</strong><p>The annual <a href=\"https://www.simshospitals.com/\" target=\"_blank\" title=\"Opens in a new window\">SIMS Hospital</a><br>Address: (Next to Vadapalani Metro Station) No.1, Jawaharlal Nehru Salai(100 Feet Road), Vadapalani, Chennai, Tamil Nadu 600026</br><br>Hours: Open 24 hours</br><br>Phone: 044 4921 1455</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2118, 13.0518]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Prashanth Super Speciality Hospital</strong><p>The annual <a href=\"http://www.prashanthhospitals.org/\" target=\"_blank\" title=\"Opens in a new window\">Prashanth Super Speciality Hospital</a><br>Address: No.36 & 36A, Velachery Main Rd, Dhandeeswaram, Velachery, Chennai, Tamil Nadu 600042</br><br>Hours: Open 24 hours</br><br>Phone: 093809 98099</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2213, 12.9785]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Sooriya Hospital</strong><p>The annual <a href=\"http://www.sooriyahospital.com/\" target=\"_blank\" title=\"Opens in a new window\">Sooriya Hospital</a><br>Address: No.1, Arunachalam Rd, Velayutham Colony, Saligramam, Chennai, Tamil Nadu 600093</br><br>Hours: Open 24 hours</br><br>Phone: 044 2376 1751</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2035, 13.0482]
+                    }
+                 }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Kavitha Ortho & Multispeciality Hospital</strong><p>The annual <a href=\"https://www.practo.com › ... › Chennai Clinics › Neurosurgery Clinics › Chromepet\" target=\"_blank\" title=\"Opens in a new window\">Kavitha Ortho & Multispeciality Hospital</a><br>Address: 144, Radha Nagar Main Road, Railway Colony, Doctors Colony, Chromepet, Chennai, Tamil Nadu 600044</br><br>Hours: Open 24 hours</br><br>Phone: 094440 09700</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1513, 12.9503]
+                    }
+                 }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>B.M. Hospital</strong><p>The annual <a href=\"http://bmhospitals.com/\" target=\"_blank\" title=\"Opens in a new window\">B.M. Hospital</a><br>Address: 36, 5th Main Rd, Thillaiganga Nagar, Pazavanthangal, Chennai, Tamil Nadu 600061</br><br>Hours: Open 24 hours</br><br>Phone: 044 2267 1182</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1901, 12.9888]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Kauvery Hospital</strong><p><a href=\"http://www.kauveryhospital.com/\" target=\"_blank\" title=\"Opens in a new window\">Kauvery Hospital</a><br>Address: No. 81, TT Krishnamachari Rd, CIT Colony, Alwarpet, Chennai, Tamil Nadu 600004</br><br>Hours: Open 24 hours</br><br>Phone: 044 4000 6000</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.2572, 13.0382]
+                    }
+                }, {
+                    "type": "Feature",
+                    "properties": {
+                        "description": "<strong>Madras Institute of Orthopaedics and Traumatology</strong><p><a href=\"http://www.miotinternational.com/\" target=\"_blank\">Madras Institute of Orthopaedics and Traumatology</a><br>Address: 4/112, Mount Poonamalle High Rd, Sathya Nagar, Manapakkam, Chennai, Tamil Nadu 600089</br><br>Hours: Open 24 hours</br><br>Krishna Janmashtami might affect these hours</br><br>Number of beds: 1,000</br><br>Founded: February 1999, Manapakkam, Chennai</br><br>Phone: 044 4200 2288</br></p>",
+                        "icon": "hospital"
+                    },
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [80.1855, 13.0216]
+                    }
+                }]
+            }
+        },
+        "layout": {
+            "icon-image": "{icon}-15",
+            "icon-allow-overlap": true
+        }
+}
+
+    });
+
+    // When a click event occurs on a feature in the places layer, open a popup at the
+    // location of the feature, with description HTML from its properties.
+    map.on('click', 'places', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'places', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'places', function () {
+        map.getCanvas().style.cursor = '';
+    });
+});
+</script>
+
+
+
+
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section darker">
+
+        <div class="grid-overlay">
+            <div></div>
+        </div>
+
+        <div class="row section-header text-center narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Clients</h3>
+                <h1 class="display-1">Who we have work with</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-wrap" data-aos="fade-up">
+            <div class="col-twelve">
+                <ul class="clients">
+                    <li><a href="#0">Gleneagles Global Health City | </a></li>
+                    <li><a href="#0">Dr. Kamakshi Memorial Hospital | </a></li>
+                    <li><a href="#0">Apollo Speciality Hospitals | </a></li>
+                    <li><a href="#0">Hindu Mission Hospital | </a></li>
+                    <li><a href="#0">Fortis Malar Hospital | </a></li>
+                    <li><a href="#0">Parvathy Hospital | </a></li>
+                    <li><a href="#0">Chennai Krishna Hospital | </a></li>
+                    <li><a href="#0">Madras Institute of Orthopaedics and Traumatology | </a></li>
+                    <li><a href="#0">SIMS Hospital | </a></li>
+                    <li><a href="#0">Kauvery Hospital</a></li>
+                    <li><a href="#0">Prashanth Super Speciality Hospital | </a></li>
+                    <li><a href="#0">Sooriya Hospital</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- testimonies
+    ================================================== -->
+    <section class="s-testimonials">
+
+        <div class="testimonials__icon" data-aos="fade-up"></div>
+
+        <div class="row testimonials narrow">
+
+            <div class="col-full testimonials__slider" data-aos="fade-up">
+
+                <div class="testimonials__slide">
+                    <p>You’ve been with life, so you can also give to others. Organ donations can be done after death. Appreciate that you’re living two living lives at once. Extend the lives of others via your organ donation.</p>
+                    <div class="testimonials__author">
+                        <span>AIMS</span>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Thousands of patients die every day because of lack of donor. Once you’ve done using it, give it to others. Especially those who really deserves it. After you pass, pass your organs.</p>
+                    <div class="testimonials__author">
+                        <span>FORTIS</span>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>For in heaven, there’s no more pain and suffering. Especially if they’re still healthy. 
+Kidneys are shareable. For you’ll be rewarded in heaven. Many people see the world for the first time through someone else’s eyes.</p>
+                    <div class="testimonials__author">
+                        <span>Indian Hospitals Corporation Limited</span>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+            <div class="grid-overlay">
+                <div></div>
+            </div>
+
+        <div class="row section-header narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Keep In Touch</h3>
+                <h1 class="display-1">Feel free to contact us </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="col-full">
+                <p class="contact-email">
+                    <a href="https://www.orginder.xyz">&nbsp;<span class="contact-email">ORGINDER</a>
+                </p>
+                <p class="contact-address">
+                SATHYABAMA <br>
+               	Chennai , 600119 IN 
+                </p>
+                <p class="contact-numbers">
+                Contact :&nbsp; +91 95 55 383612 |&nbsp; +91 81 24 737393 <br> prabhat@orginder.xyz, &nbsp; akash@orginder.xyz  
+                </p>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="https://www.facebook.com/orginderofficial"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/orginderofficial"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full ss-copyright">
+                <span>© Copyright ORGINDER 2018</span> 
+                <span>Designed by <a href="https://www.styleshout.com/">team orginder</a></span><br>
+                <span>Apache License 2.0</span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
